@@ -119,18 +119,25 @@ html {
     font-size: 14px;
     
 }
-
+#header .menu-mobile-btn,
 #header .search-icon {
     float: right;
 }
 
+#header .menu-icon,
 #header .search-btn {
     color: #fff;
     font-size: 16px;
     line-height: 46px;
     padding: 0px 22px;
-    font-weight: 800;
 
+}
+
+#header .menu-icon:hover.ti-menu {
+    height: 100%;
+    display: inline-block;
+    background-color: #ccc;
+    color: #000;
 }
 
 #header .search-btn:hover {

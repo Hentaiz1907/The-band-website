@@ -1,16 +1,22 @@
  /* pc */
         @media (min-width:1024) {
-            display: block;
         
         }
-         tablet
+         /* tablet */
         @media (max-width:1023) and (min-width:800px) {
-            display: block;
   
         } 
 
         
         /* mobile */
         @media (max-width:799px) {
-            display: block;
+            #nav >li {
+                display: block;
+            }
+            #header {
+                overflow: hidden;
+            }
+            .search-btn.ti-search {
+                display: none;
+            }
         } 

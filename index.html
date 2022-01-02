@@ -7,8 +7,8 @@
     <title>The Band</title>
     <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/736x/7c/f3/11/7cf311b83abfc6aaea45e9e7244624b8.jpg">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/font/icon/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/icon/themify-icons/themify-icons.css">
 </head>
 <body>
     <div id="main">
@@ -36,7 +36,12 @@
             <div class="search-icon">
                 <i class="search-btn ti-search"></i>
             </div>
+            
+            <div id="menu-mobile" class="menu-mobile-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
             <!--  search icon: end-->
+
         </div>
         <!-- slider start -->
         <div id="slider">
@@ -231,6 +236,26 @@
             </div>
 
            </div>
+
+
+
+
+
+           <script>
+               var header = document.getElementById('header')
+               var mobileMenu = document.getElementById('menu-mobile')
+                var headerHeight = header.clientHeight;
+
+               mobileMenu.onclick = function () {
+                    var isClosed = header.clienHeight === headerHeight;
+                    if (isClosed) {
+                        header.style.height = 'auto';
+                    } else {
+                        header.style.height = null ;
+
+                    }
+                }
+           </script>
            
            <script>
            
