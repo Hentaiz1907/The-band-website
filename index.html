@@ -37,7 +37,7 @@
                 <i class="search-btn ti-search"></i>
             </div>
             
-            <div id="menu-mobile" class="menu-mobile-btn">
+            <div id="mobile-menu" class="menu-mobile-btn">
                 <i class="menu-icon ti-menu"></i>
             </div>
             <!--  search icon: end-->
@@ -243,12 +243,13 @@
 
            <script>
                var header = document.getElementById('header')
-               var mobileMenu = document.getElementById('menu-mobile')
+               var mobileMenu = document.getElementById('mobile-menu')
                 var headerHeight = header.clientHeight;
 
-               mobileMenu.onclick = function () {
-                    var isClosed = header.clienHeight === headerHeight;
-                    if (isClosed) {
+               mobileMenu.onclick = function() {
+
+                    var isClose = header.clientHeight === headerHeight;
+                    if (isClose) {
                         header.style.height = 'auto';
                     } else {
                         header.style.height = null ;
@@ -257,6 +258,8 @@
                 }
            </script>
            
+
+
            <script>
            
                const buyBtns = document.querySelectorAll('.js-buyticket-btn')
