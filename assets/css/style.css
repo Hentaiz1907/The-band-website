@@ -100,7 +100,7 @@ html {
     text-decoration: none;
     line-height: 46px;
     padding: 0px 24px;
-    display:inline-block ;
+    display:block ;
 }
 
 #nav li:hover > .subnav {
@@ -132,6 +132,14 @@ html {
     padding: 0px 22px;
 
 }
+
+#header .menu-mobile-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
 
 #header .menu-icon:hover.ti-menu {
     height: 100%;

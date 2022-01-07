@@ -32,14 +32,17 @@
                     </ul>
                 </li>
             </ul>
+
+               <!-- mobile menu button  -->
+            <div id="mobile-menu" class="menu-mobile-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+
             <!-- search icon: start -->
             <div class="search-icon">
                 <i class="search-btn ti-search"></i>
             </div>
-            
-            <div id="mobile-menu" class="menu-mobile-btn">
-                <i class="menu-icon ti-menu"></i>
-            </div>
+         
             <!--  search icon: end-->
 
         </div>
@@ -244,7 +247,8 @@
            <script>
                var header = document.getElementById('header')
                var mobileMenu = document.getElementById('mobile-menu')
-                var headerHeight = header.clientHeight;
+               var headerHeight = header.clientHeight;
+               
 
 
                 // dong/ mo mobile menu
@@ -266,7 +270,12 @@
                     var menuItem = menuItems[i];
                     
                     menuItem.onclick = function() {
-                        header.style.height = null ;
+                        var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav')
+                        if (isParentMenu) {
+                            event.preventDefault();  
+                        }else {
+                            header.style.height = null ;
+                        } 
 
                     }
                 }
