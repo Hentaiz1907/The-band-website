@@ -11,6 +11,10 @@ html {
 .clear {
     clear: both;
 }
+
+.mt-32 {
+    margin-top: 32px;
+}
 .mt-16 {
     margin-top: 16px;
 }
@@ -212,7 +216,7 @@ html {
     margin-right: auto;
     padding: 64px 0px 112px;
     padding-left: 16px;
-    padding-right: 8px;
+    padding-right: 16px;
 }
  
 #content .section-heading,
@@ -245,7 +249,7 @@ html {
 
 #content .team-member {
     /* overflow: hidden; */
-    padding-top: 48px;
+    padding-top: 32px;
 }
 /* 
 /* #content .member-item {
@@ -257,6 +261,7 @@ html {
 
 #content .member-name {
     font-size: 15px;
+    font-weight: 600;
 }
 
 #content .member-img {
@@ -302,7 +307,7 @@ html {
 }
 
 .places-section {  
-    margin-top: 32px; 
+    margin-top: 16px; 
 }
 
 /* 

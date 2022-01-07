@@ -2,18 +2,30 @@
         @media (min-width:1024) {
             
         }
-         /* tablet */
+        /* tablet */
         @media (max-width:1023) and (min-width:800px) {
-
+            
         } 
-
+        
         
         /* mobile */
         @media (max-width:799px) {
+            .s-full-width,
+            .s-col-full {
+                width: 100%!important;
+            }
+            
+                        .s-mt-8 {
+                            margin-top: 8px!important;
+                        }
+                        .contect-form {
+                            margin-top: 16px!important;
+                        }
+            
             #header {
                 overflow: hidden;
             }
-
+            
             #header .menu-mobile-btn{
                 display: block;
             }
@@ -43,4 +55,14 @@
             .search-btn.ti-search {
                 display: none;
             }
+
+           
+            #content .member-img {
+                width: 60%;
+            }
+
+            /* .s-col-full {
+                width: 100%;
+          
+            } */
         } 
