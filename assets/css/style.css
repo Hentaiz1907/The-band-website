@@ -455,6 +455,14 @@ color: #757575;
     padding-top: 48px;
 }
 
+.contact-infor a {
+    opacity: 0.8;
+}
+
+.contact-infor a:hover {
+    opacity: 1;
+}
+
 .contact-infor {
     font-size: 18px;
     line-height: 1.4;

@@ -4,7 +4,7 @@
         }
         /* tablet */
         @media (max-width:1023) and (min-width:800px) {
-            
+           
         } 
         
         
@@ -15,12 +15,12 @@
                 width: 100%!important;
             }
             
-                        .s-mt-8 {
-                            margin-top: 8px!important;
-                        }
-                        .contect-form {
-                            margin-top: 16px!important;
-                        }
+            .s-mt-8 {
+            margin-top: 8px!important;
+            }
+            .contect-form {
+            margin-top: 16px!important;
+            }
             
             #header {
                 overflow: hidden;
@@ -66,3 +66,34 @@
           
             } */
         } 
+
+
+        /* tablet and mobile */
+        @media (max-width:1023px) {
+            .btn {
+                padding: 15px 16px;
+            }
+
+            #nav .subnav {
+                padding: 4px 12px;
+            }
+
+            .contect-form .form-control {
+                padding: 15px;
+            }
+            .contact-infor {
+                line-height: 2;
+            } 
+            .social-list {
+                font-size: 48px;
+            }
+            
+            .social-list a {
+                margin: 0px 8px;
+            }
+
+            .footer a {
+                padding: 12px 0px;
+                display: inline-block;
+            }
+        }
