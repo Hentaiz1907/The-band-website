@@ -60,6 +60,7 @@ html {
     display: inline-block;
     margin-top: 15px;
     border-width: 0px;
+    -webkit-appearance: none;
 }
 .float-right {
     float: right!important;
