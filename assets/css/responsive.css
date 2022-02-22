@@ -1,15 +1,15 @@
  /* pc */
-        @media (min-width:1024) {
+        @media (min-width: 64em) {
             
         }
         /* tablet */
-        @media (max-width:1023) and (min-width:800px) {
+        @media (max-width:63.9375em) and (min-width:50em) {
            
         } 
         
         
         /* mobile */
-        @media (max-width:799px) {
+        @media (max-width:49.9375em) {
             .s-full-width,
             .s-col-full {
                 width: 100%!important;
@@ -69,7 +69,7 @@
 
 
         /* tablet and mobile */
-        @media (max-width:1023px) {
+        @media (max-width:63.9375em) {
             .btn {
                 padding: 15px 16px;
             }
@@ -80,9 +80,13 @@
 
             .contect-form .form-control {
                 padding: 15px;
+                font-size: 16px;
             }
             .contact-infor {
                 line-height: 2;
+            }
+            .contact-submit-font {
+                font-size: 16px;
             } 
             .social-list {
                 font-size: 48px;
