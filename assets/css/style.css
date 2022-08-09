@@ -101,7 +101,7 @@ html {
     text-transform: uppercase;
 }
 
-#nav li a {
+#nav a {
     text-decoration: none;
     line-height: 46px;
     padding: 0px 24px;
@@ -110,7 +110,6 @@ html {
 
 #nav li:hover > .subnav {
     display: block;
-
 }
 
 #nav .subnav li:hover,
